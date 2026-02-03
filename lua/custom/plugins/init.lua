@@ -2,4 +2,12 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  -- vim.api.nvim_create_autocmd('BufRead,BufNewFile', {
+  --   desc = 'Add lsp recognition for tfvars files',
+  --   pattern = { '*.tfvars', '*.auto.tfvars' },
+  --   callback = function()
+  --     vim.bo.filetype = 'terraform'
+  --   end,
+  -- }),
+}
